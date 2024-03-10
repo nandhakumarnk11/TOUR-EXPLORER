@@ -19,7 +19,7 @@ const App = () =>{
         <Appbar />
         
         <Routes>
-          <Route path="/Home" element={<Home />}>
+          <Route path="/" element={<Home />}>
           </Route>
           
           <Route path="/Placetovisit" element={<Placetovisit />}>
